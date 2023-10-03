@@ -8,5 +8,27 @@
 <h1>Jean</h1>
 <h2>Jean2</h2>
 <h3>Jean3</h3>
+<h2>Aggiungi Nuova Ricetta</h2>
+<form action="/admin/ricette/aggiungi" method="post">
+    <label for="titolo">Titolo:</label>
+    <input type="text" id="titolo" name="titolo" required><br>
+
+    <label for="ingredienti">Ingredienti:</label>
+    <textarea id="ingredienti" name="ingredienti" rows="4" required></textarea><br>
+
+    <label for="foto">URL dell'Immagine:</label>
+    <input type="url" id="foto" name="foto" required><br>
+
+    <label for="tempoPreparazione">Tempo di Preparazione (minuti):</label>
+    <input type="number" id="tempoPreparazione" name="tempoPreparazione" required><br>
+
+    <label for="porzioni">Porzioni:</label>
+    <input type="number" id="porzioni" name="porzioni" required><br>
+
+    <label for="testoRicetta">Testo della Ricetta:</label><br>
+    <textarea id="testoRicetta" name="testoRicetta" rows="6" required></textarea><br>
+
+    <input type="submit" value="Aggiungi Ricetta">
+</form>
 </body>
 </html>
