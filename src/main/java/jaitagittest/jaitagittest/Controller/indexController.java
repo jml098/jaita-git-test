@@ -1,4 +1,8 @@
-package jaitagittest.jaitagittest.Controller;
+package jaitagittest.jaitagittest.controller;
 
-public class indexController {
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class IndexController {
+
 }
